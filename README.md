@@ -20,4 +20,10 @@ $git push origin master
 >$git pull origin master 
 
 *项目部署到github.io*
->$hexo deploys
+>$git clone https://github.com/popued/popued.github.io.git
+$hexo g  
+然后生成的所有public文件粘贴覆盖popued.github.io的所有文件  
+cd popued.github.io  
+$git add .  
+$git commit -m "提交描述"  
+$git push origin master
