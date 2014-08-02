@@ -27,3 +27,6 @@ cd popued.github.io
 $git add .  
 $git commit -m "提交描述"  
 $git push origin master
+
+*项目提示*
+>每次要更新代码之前先$git pull 一下
