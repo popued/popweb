@@ -1,7 +1,6 @@
 title: markdown语法
 date: 2014-08-02 22:44:50
 categories: web
-author: 章
 tags: markdown
 ---
 <h2 id="overview">概述</h2>
