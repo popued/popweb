@@ -25,6 +25,20 @@ photos:
 &lt;JavaScript Patterns&gt;
 &lt;ECMA-262 in Detail&gt;
 </pre>
+###番外篇
+<pre>各类专题书籍，读好第二批次书籍之后，有精力就接触下
+&lt;高性能网站建设指南&gt;
+&lt;高性能网站建设进阶指南&gt;
+&lt;高性能JavaScript&gt;
+&lt;Ajax实战&gt;
+&lt;Query实战&gt;
+&lt;精通CSS&gt;(或&lt;CSS权威指南&gt;)
+&lt;正则表达式必知必会&gt;(或&lt;正则表达式权威指南&gt;)
+&lt;HTML5与CSS3权威指南&gt;
+&lt;NodeJS开发指南&gt;
+&lt;深入浅出Node.js&gt;
+&lt;锋利的jquery&gt;
+</pre>
 推荐一个不错的教程<a href="http://javascript.ruanyifeng.com/">JavaScript 标准参考教程（alpha）</a><!--more-->
 ##javascript知识点##
 1.JavaScript 数据类型
