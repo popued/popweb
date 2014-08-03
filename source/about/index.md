@@ -8,7 +8,7 @@ date: 2014-07-30 13:30:09
 ###成立于2014,3月份
 <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=FFff772938d158843021666960b2a4ed"></script>
 <style type="text/css">
-#allmap {width: 700px;height: 500px;overflow: hidden;margin:0;}
+#allmap {width: 90%;height: 400px;overflow: hidden;margin:0;position: fixed;}
 </style>
 <div id="allmap"></div>
 <em>hznu's map</em>
