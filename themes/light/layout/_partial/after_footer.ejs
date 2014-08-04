@@ -40,4 +40,32 @@ var disqus_shortname = '<%= config.disqus_shortname %>';
 </script>
 <link rel="stylesheet" href="<%- config.root %>fancybox/rocket.css" type="text/css">
 <script src="<%- config.root %>fancybox/rocket.js"></script>
+       <!-- 彩色标签 start -->
+    <script type="text/javascript">
+        $(function () {
+            randomCloudLabel();
+        });
+        function randomCloudLabel() {
+            var obj = $("#CloudLabel a");
+            function rand(num) {
+                return parseInt(Math.random() * num + 1);
+            }
+            function randomcolor() {
+                var str = Math.ceil(Math.random() * 16777215).toString(16);
+                if (str.length < 6) {
+                    str = "0" + str;
+                }
+                return str;
+            }
+            for (len = obj.length, i = len; i--; ) {
+                obj[i].style.left = rand(600) + "px";
+                obj[i].style.top = rand(400) + "px";
+                obj[i].className = "color" + rand(5);
+                obj[i].style.zIndex = rand(5);
+                obj[i].style.fontSize = rand(50) + 12 + "px";
+                obj[i].style.color = "#" + randomcolor();
+            }
+        }
+    </script>
+<!-- 彩色标签 end -->
 <% } %>
