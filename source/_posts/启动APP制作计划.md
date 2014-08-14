@@ -13,7 +13,12 @@ category: 杂谈
 
 作者 [@柳][3]     
 2014 年 07月 30日 
+<!--more-->
+pop社交app应用
 
+##技术路线
+服务端为php，用php写接口获取wecenter应用数据，并转换成json格式  
+用jqMobi来开发手机应用，用javascript连接获取php的app接口获取社区内容，最后用phonegap封装成android和iOS应用
 
 
 [1]: http://m.popued.com/
